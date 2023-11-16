@@ -97,6 +97,7 @@ form {
 .follow {
 	display: flex;
 	gap: 20px;
+	margin-top: -30px;
 }
 .followers:hover {
 	color: rgb(90, 90, 255);
@@ -141,7 +142,7 @@ form {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 2rem;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .repoChild {
