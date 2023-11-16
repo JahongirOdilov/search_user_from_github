@@ -84,7 +84,10 @@ function getRepos(username: string) {
 		})
 		.then((repos) => {
 			console.log("repos = ", repos);
-
+			const title = document.createElement("h1");
+			title.className = "title_repo";
+			title.innerText = "Repositories:";
+			reposList.append(title);
 			for (let i = 0; i < repos.length; i++) {
 				console.log(repos[i].name);
 				const repoChild = document.createElement("a");

@@ -160,3 +160,8 @@ form {
 .repoChild:hover {
 	color: rgb(32, 155, 255);
 }
+
+.title_repo{
+	margin-top: -1px;
+	font-size: 40px;
+}
