@@ -75,7 +75,7 @@ function getUser(username: string) {
 }
 
 function getRepos(username: string) {
-	fetch(`https://api.github.com/users/${username}/repos`)
+	fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
 		.then((res) => {
 			if (!res.ok) {
 				throw new Error(`GitHub API error`);
