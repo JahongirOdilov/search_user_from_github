@@ -12,7 +12,7 @@ body {
 }
 
 .name_title {
-	font-size: 20px;
+	font-size: 30px;
 }
 .logo {
 	display: flex;
@@ -141,6 +141,12 @@ form {
 	display: flex;
 	gap: 20px;
 	flex-wrap: wrap;
+	overflow: scroll;
+	margin-top: 50px;
+}
+.repos::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
 
 .information {
@@ -167,6 +173,8 @@ form {
 }
 
 .title_repo {
-	margin-top: -1px;
+	position: fixed;
+	top: 100px;
+	margin-top: 40px;
 	font-size: 40px;
 }
