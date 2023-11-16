@@ -63,8 +63,8 @@ function getUser(username: string) {
 			userName.innerText = `@${user.login}`;
 			userBio.innerText = user.bio;
 			countRepo.innerText = user.public_repos;
-			followers.innerText = `👥 ${user.followers} followers`;
-			following.innerText = ` ✅${user.following} following`;
+			followers.innerText = `👥     ${user.followers} followers`;
+			following.innerText = ` ✅    ${user.following} following`;
 			reposList.innerHTML = "";
 		})
 		.catch(() => {
