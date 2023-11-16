@@ -8,10 +8,11 @@ body {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	border: 5px solid #3066be;
 }
 
 .name_title {
-	font-size: 30px;
+	font-size: 20px;
 }
 .logo {
 	display: flex;
@@ -26,7 +27,7 @@ body {
 	background: none;
 	font-size: 25px;
 	border-radius: 20px;
-	border: 1px solid #3066be;
+	border: 2px solid #3066be;
 	padding-left: 30px;
 	color: white;
 	outline: none;
@@ -36,6 +37,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 0 2rem;
 }
 
 .btn {
@@ -58,7 +60,7 @@ form {
 	align-items: center;
 }
 .repo_1 {
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: bold;
 }
 .repo {
@@ -70,6 +72,7 @@ form {
 	width: 350px;
 	height: 350px;
 	border-radius: 50%;
+	border: 15px solid #3066be;
 }
 
 .user_name {
@@ -91,6 +94,7 @@ form {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
+	border: 5px solid #3066be;
 	display: none;
 	cursor: pointer;
 }
@@ -162,7 +166,7 @@ form {
 	color: rgb(32, 155, 255);
 }
 
-.title_repo{
+.title_repo {
 	margin-top: -1px;
 	font-size: 40px;
 }
